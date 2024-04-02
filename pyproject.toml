@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "corpora-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Denis <denis.malyutin@fruct.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "*"
+nltk = "*"
+matplotlib = "*"
+aiofiles = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
