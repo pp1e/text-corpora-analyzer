@@ -11,7 +11,6 @@ To install package, execute `pip install *path to compiled file*`.
 
 # Dependencies
 
-* `Poetry` to use `run.py`.
 * `python >= 3.8`.
 * Make sure `matplotlip` correctly set up in your system.
 
@@ -28,6 +27,6 @@ Then you can:
 # Example
 
 You can view and use [`run.py`](run.py) as example how to interact with library.
-Usage (make sure you have `Poetry` installed): 
-1. Install dependencies via `poetry install`
-2. Run via `poetry run python3 run.py *path to corpora directory*`
+Usage: 
+1. Install `corpora-analyzer` package *or* install dependencies via `poetry install` (in this case, make sure you have `poetry` installed).
+2. Run via `poetry run python3 run.py *path to corpora directory*`.
